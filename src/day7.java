@@ -1,3 +1,4 @@
+//Get the number of month and year as input from the user and check the number of days present in that month.
 import java.util.*;
 public class day7 {
     static int leap(int a){
