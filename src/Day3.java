@@ -1,3 +1,6 @@
+
+//Get an input character from the user and give the ASCII value of the given input as the output.
+
 import java.util.*;
 public class Day3 {
     public static void main(String[] args) {

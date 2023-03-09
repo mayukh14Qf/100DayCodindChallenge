@@ -1,3 +1,6 @@
+
+//Take an input character from the user and check whether the given input is a vowel or consonant.
+
 import java.util.*;
 public class day1 {
     public static void main(String[] args) {

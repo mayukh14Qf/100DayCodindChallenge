@@ -1,3 +1,5 @@
+//Get a number as an input from the user and check whether the given number is odd or even
+
 import java.util.*;
 public class day5 {
     public static void main(String[] args) {
