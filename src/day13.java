@@ -7,7 +7,6 @@
 //
 //Therefore sum of first 5 natural numbers is 1+2+3+4+5 = 15
 
-
 import java.util.*;
 public class day13 {
     public static void main(String[] args) {
