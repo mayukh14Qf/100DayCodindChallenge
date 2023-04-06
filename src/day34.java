@@ -25,5 +25,10 @@ public class day34 {
             }
         }
         System.out.println(sb.toString());
+
+        // using replaceAll Function in java
+
+        String newStr=s.replaceAll("[{()}]","");
+        System.out.println(newStr);
     }
 }
