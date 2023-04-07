@@ -10,10 +10,6 @@ ProgramminG
  */
 
 
-
-
-
-
 import java.util.Scanner;
 public class day36 {
     public static void main(String[] args) {
