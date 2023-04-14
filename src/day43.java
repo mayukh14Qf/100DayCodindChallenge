@@ -18,6 +18,27 @@ Odd
 
 import java.util.Scanner;
 public class day43 {
+    public static void check1(int [] arr){
+        int odd=0;
+        int even=0;
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]%2==0){
+                even++;
+            }
+            else {
+                odd ++;
+            }
+        }
+        if(odd==arr.length){
+            System.out.println("odd");
+        }
+        else if(even==arr.length){
+            System.out.println("even");
+        }
+        else {
+            System.out.println("mixed");
+        }
+    }
     public static String check(int [] arr){
         int flag=0;
         for (int i=0;i<arr.length;i++){
@@ -51,5 +72,6 @@ public class day43 {
             arr[i]=sc.nextInt();
         }
         System.out.println(check(arr));
+        check1(arr);
     }
 }
